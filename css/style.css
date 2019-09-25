@@ -14,15 +14,26 @@ body {
 
 
 .product {
-
-}
-
-.iphone-11-pro {
-  background-color: #000;
-  background-image: url('/img/iphone11pro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  /* background-attachment: fixed; */
 }
 
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.iphone-11-pro {
+  background-image: url('/img/iphone11pro.jpg');
+}
+.iphone-11 {
+  background-image: url('/img/iphone11.jpg');
+}
+.apple-watch {
+  background-image: url('/img/applewatch.jpg');
+}
