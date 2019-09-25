@@ -12,3 +12,11 @@
 
 ## Other upcoming tasks
 - Form elements
+
+# Goal
+
+Build somethign like this:
+
+| Menu Open     | Menu Closed   |
+| ------------- | ------------- |
+| ![Menu Open](sample-layout-open-menu.png) | ![Menu Closed](sample-layout.png) |
