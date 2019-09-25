@@ -1,16 +1,14 @@
 # Todo
 
-A few things...
+## Next up...
+- [x] Custom fonts (and font faces)
+- [ ] Inline vs block (`display`)
+- [ ] Units of measurement
+  - `em` vs `rem`
+- [ ] Link to sections
+- [ ] Create menu, with list styling
+- [ ] descendent selectors
+- [ ] before/after
 
-## Sept 18th
-
-### Likely today
-- Custom fonts (and font faces)
-- Units of measurement
-- Link to sections
-- Create menu, with list styling
-- descendent selectors
-- before/after
-
-### Probably not today
+## Other upcoming tasks
 - Form elements
