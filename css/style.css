@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i&display=swap');
 
 body {
   background-color: #fff;
   color: #222;
-  font: 400 normal 1rem/1.5 'Roboto', helvetica, arial, sans-serif;
+  font: 400 normal 1em/1.5 'Roboto', helvetica, arial, sans-serif;
+  
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Roboto', helvetica, arial, sans-serif;
 }
 
 .menubar {
@@ -13,13 +19,80 @@ body {
 
 
 
+
 .product {
-  background-size: cover;
+  background-size: auto 20em;
   background-repeat: no-repeat;
   background-position: center bottom;
+  padding: 2em 1em 13em 1em;
+  text-align: center;
 }
 
-.dark {
+.product.light {
+  background-color: #fff;
+  color: #000;
+}
+.product.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.iphone11pro {
+  background-image: url('/img/iphone11pro.jpg');
+}
+.iphone11 {
+  background-image: url('/img/iphone11.jpg');
+}
+.applewatch {
+  background-image: url('/img/applewatch.jpg');
+}
+
+
+.product .name {
+  font-size: 2em;
+  font-weight: 500;
+}
+.product .subtext {
+  font-size: 1.1em;
+}
+
+.product .links li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.product .links a {
+  color: #6dbbf5;
+  text-decoration: none;
+} 
+.product .links a::after {
+  content:" \232a";
+  /* font-size: 2em; */
+  vertical-align: middle;
+  /* background-color: red;
+  display: block;
+  width: 1em;
+  height: 1em; */
+}
+
+
+
+/* button {
+  border: none;
+  padding: 0.5em 1em;
+  box-shadow: 0.25em 0.25em 0 black;
+}
+button:hover {
+
+}
+
+.btn.action {
+  background-color: tomato;
+  box-shadow: 0.25em 0.25em 0 crimson;
+} */
+
+
+/* .dark {
   background-color: #000;
   color: #fff;
 }
@@ -27,6 +100,7 @@ body {
   background-color: #fff;
   color: #000;
 }
+
 
 .iphone-11-pro {
   background-image: url('/img/iphone11pro.jpg');
@@ -36,4 +110,4 @@ body {
 }
 .apple-watch {
   background-image: url('/img/applewatch.jpg');
-}
+} */
